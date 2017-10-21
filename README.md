@@ -1,10 +1,29 @@
-1 . Create your Virtual Env
-    virtualenv -p /usr/bin/python3.5 envName 
-2 . Activate the Envv 
-    source envName/bin/activate
-3 . Install Django
-    pip3 install django
-4 . Install scapy 
-    pip3 install scapy-python3
-5. Runserver (Please change the permission of manage.py inside PacketDesigner folder {chmod +x manage.py}) 
-   python manage.py runserver  (will be ready to use on port 8000)
+# Packet Crafter in python 3.5 based on Scapy3
+  
+Can generate and send packets according to user. You can modify a bunch of properties for your packet before sending to wire.
+Good for testsing firewall rules and stress testing.
+
+## Getting Started
+
+### Prerequisites
+
+python 3.5  and Django latest version.
+
+```
+Create your Virtual Env
+
+virtualenv -p /usr/bin/python3.5 envName
+
+Activate the Envv 
+
+source envName/bin/activate
+
+Install Django
+
+pip3 install django
+
+Install scapy 
+
+pip3 install scapy-python3
+
+```
